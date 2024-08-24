@@ -1,0 +1,70 @@
+body, p, h1{
+    margin: unset;
+    padding: unset;
+}
+img{
+    vertical-align: top;
+}
+
+body{
+    background-image: url(images/bg.png);
+    
+}
+
+.wrap{
+    width: 300px;/*😅너비를 설정해야 중앙정렬가능!*/
+    height: 100vh;
+
+    margin-top: 60px;
+    margin-left:  auto;
+    margin-right: auto;
+    padding: 0;
+
+
+}
+
+.fox-img{
+    width: 300px;
+    height: 300px;
+}
+
+.container{
+    width: 300px;
+}
+
+.grass{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 0;
+}
+
+.text{
+    width: 300px;
+    height: 253px;
+    background-color: #9C6035;
+    border-bottom: 10px solid #46260E;
+    margin-top: 0;
+    box-sizing: border-box;
+    
+}
+
+h1{
+    padding-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    height: 41px;
+
+}
+
+p{
+    font-family: 'arial';
+    color: #E8BC9C;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 48px;
+
+}
