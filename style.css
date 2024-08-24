@@ -3,7 +3,12 @@ body, p, h1{
     padding: unset;
 }
 img{
-    vertical-align: top;
+    vertical-align: top;/*이미지의 아래쪽 빈칸 제거 (기본 스타일 초기화)*/
+}
+
+/*디자인*/
+:root{
+    font-family: 'arial';
 }
 
 body{
@@ -44,27 +49,22 @@ body{
     background-color: #9C6035;
     border-bottom: 10px solid #46260E;
     margin-top: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;/*✨margin, padding상관없이 사이즈 유지시킴*/
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+
+    padding: 10px 20px 48px;
 }
 
 h1{
-    padding-top: 10px;
-    margin-left: 20px;
+    margin-bottom: 10px;
     font-weight: bold;
     font-size: 36px;
     color: white;
     height: 41px;
-
 }
 
 p{
-    font-family: 'arial';
     color: #E8BC9C;
     font-size: 16px;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 48px;
-
 }
